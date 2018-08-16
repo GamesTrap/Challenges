@@ -1,7 +1,7 @@
 # Challenges
 
 A collection of challenges I made to for C++.  
-Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenge.svg?branch=master)](https://travis-ci.com/GamesTrap/Challenge)
+Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=master)](https://travis-ci.com/GamesTrap/Challenges)
 
 ## Programs
 
