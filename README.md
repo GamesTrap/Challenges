@@ -22,3 +22,8 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Output a corresponding message
 	- Output an error message if the number for the beginning > the number for the end
 	- [Solution](Challenge2/src/main.cpp)
+
+- Challenge 3
+	- Write a program that requires three integers as input
+	- Output the biggest number of the three integers
+	- [Solution](Challenge3/src/main.cpp)

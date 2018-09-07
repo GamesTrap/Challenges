@@ -10,3 +10,4 @@ set(CMAKE_CXX_EXTENSIONS FALSE)
 
 add_subdirectory(Challenge1)
 add_subdirectory(Challenge2)
+add_subdirectory(Challenge3)
