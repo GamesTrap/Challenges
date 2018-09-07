@@ -13,3 +13,12 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- The ~-Operator inverts all bits, making the maximum largest unsigned number of 0.
 		- For signed numbers one bit is used for the sign (two's complement representation).
 	- [Solution](Challenge1/src/main.cpp)
+	
+- Challenge 2
+	- Write a program that requires three integers as input
+	- The first is meant as the beginning of a range of numbers
+	- The second as the end of the range
+	- The program should check if the third number is within the range including the limits
+	- Output a corresponding message
+	- Output an error message if the number for the beginning > the number for the end
+	- [Solution](Challenge2/src/main.cpp)
