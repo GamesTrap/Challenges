@@ -55,3 +55,10 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Int Age
 	- Use cin(input via keyboard) to assign values to the struct
 	- Output entered values via struct
+- Challenge 7
+	- Write a program that requires a string that represents a natural number and only consists of digits as input
+	- Example:
+		- "17462309"
+	- a) Convert the string to a number x of type long
+	- b) Calculate the checksum of z
+	- Output the converted number and the checksum
