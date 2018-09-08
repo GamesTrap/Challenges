@@ -1,6 +1,6 @@
 # Challenges
 
-A collection of challenges I made to for C++.  
+A collection of challenges I made for C++.  
 Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=master)](https://travis-ci.com/GamesTrap/Challenges)
 
 ## Programs
@@ -38,3 +38,12 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		-  5 -> 00000000000000000000000000000101
 		- -5 -> 11111111111111111111111111111011
 	- [Solution](Challenge4/src/main.cpp)
+
+- Challenge 5
+	- Write a program that calculates the sum of all natural number from n1 to n2
+	- a) With a for loop
+	- b) With a while loop
+	- c) With a do while loop
+	- d) Without a loop
+	- Assume n2 >= n1
+	- [Solution](Challenge5/src/main.cpp)
