@@ -47,3 +47,11 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- d) Without a loop
 	- Assume n2 >= n1
 	- [Solution](Challenge5/src/main.cpp)
+
+- Challenge 6
+	- Write a struct called Person:
+		- String Firstname
+		- String Lastname
+		- Int Age
+	- Use cin(input via keyboard) to assign values to the struct
+	- Output entered values via struct
