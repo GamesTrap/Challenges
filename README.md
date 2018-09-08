@@ -13,7 +13,7 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- The ~-Operator inverts all bits, making the maximum largest unsigned number of 0.
 		- For signed numbers one bit is used for the sign (two's complement representation).
 	- [Solution](Challenge1/src/main.cpp)
-	
+
 - Challenge 2
 	- Write a program that requires three integers as input
 	- The first is meant as the beginning of a range of numbers
@@ -27,3 +27,14 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Write a program that requires three integers as input
 	- Output the biggest number of the three integers
 	- [Solution](Challenge3/src/main.cpp)
+
+- Challenge 4
+	- Write a program that requires an integer as input
+	- Create a loop that outputs a given number in binary
+	- Use bit operations to check which bits of the number are set
+	- Hints:
+		- Use the number 1, shifted by 0 to e.g. 31 bit positions, as a mask
+	- Possible results:
+		-  5 -> 00000000000000000000000000000101
+		- -5 -> 11111111111111111111111111111011
+	- [Solution](Challenge4/src/main.cpp)
