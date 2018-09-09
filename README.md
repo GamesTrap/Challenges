@@ -76,4 +76,14 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Input: "4" = "IIII" is wrong
 		- Input: "4" = "IV" is right
 	- Output the converted number
-	- [Solution](Challeng8/src/main.cpp)
+	- [Solution](Challenge8/src/main.cpp)
+
+- Challenge 9
+	- Write a program that can read any number in the range of -99 to +100(inclusive)
+	- The number range is divided into 10 equal large intervals
+	- Once a number outside the range is entered, end the input
+	- Output for each interval how many numbers have been entered
+	- Hints:
+		- Use const for -99, +100 and so on
+		- Use a vector<int> to save the intervals
+	- [Solution](Challenge9/src/main.cpp)
