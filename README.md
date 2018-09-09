@@ -55,6 +55,8 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Int Age
 	- Use cin(input via keyboard) to assign values to the struct
 	- Output entered values via struct
+	- [Solution](Challenge6/src/main.cpp)
+
 - Challenge 7
 	- Write a program that requires a string that represents a natural number and only consists of digits as input
 	- Example:
@@ -62,3 +64,16 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- a) Convert the string to a number x of type long
 	- b) Calculate the checksum of z
 	- Output the converted number and the checksum
+	- [Solution](Challenge7/src/main.cpp)
+
+- Challenge 8
+	- Write a program that requires a natural number as input
+	- Convert the input to a Roman number
+		- const string CHARACTERS = "IVXLCDM"
+	- Syntax rules
+		- No digit except 'M' is allowed more than three times in a row
+	- Example
+		- Input: "4" = "IIII" is wrong
+		- Input: "4" = "IV" is right
+	- Output the converted number
+	- [Solution](Challeng8/src/main.cpp)
