@@ -87,3 +87,16 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Use const for -99, +100 and so on
 		- Use a vector<int> to save the intervals
 	- [Solution](Challenge9/src/main.cpp)
+
+- Challenge 10
+	- Write a program that requires a natural number > 0
+	- 1.
+		- If the number is even, divide by 2
+		- If not, multiply it by 3 and add 1
+	- 2.
+		- If the resulting number is greater than 1, apply step 1 again
+		- If not, the process is finished
+	- Output every result from the algorithm
+	- Output every new biggest number and add a pause
+	- Output how many iterations were needed
+	- [Solution](Challenge10/src/main.cpp)
