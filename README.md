@@ -100,3 +100,7 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Output every new biggest number and add a pause
 	- Output how many iterations were needed
 	- [Solution](Challenge10/src/main.cpp)
+
+- Challenge 11
+	- Write a program that prints the contents of a file in hexadecimal form
+	- [Solution](Challenge11/src/main.cpp)
