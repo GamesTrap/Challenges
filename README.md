@@ -116,3 +116,26 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Umlauts do not count as characters because they are not part of ASCII
 	- The number of characters should not contain the end-of-line identifier
 	- [Solution](Challenge12/src/main.cpp)
+
+- Challenge 13
+	- 1.
+		- Write a program that can read any number of entries from a file like below
+		- Example.txt
+	  	```
+	  	Bob Ross
+	  	123456
+	  	Kappa Pride
+	  	746453
+	  	Kappa Claus
+	  	6329430
+	  	#
+	  	```
+	  	- Use a struct named Student.
+	  	- It should contain the name and the associated student number as a string
+	  	- The data should be saved in a vector<Student>
+	  	- Output the contents of the vector
+	 - 2.
+	 	- Ask for a student number
+	 	- Output name(or "not found")
+	 	- Do step 2 again until the user enters 'x' or 'X'
+	- [Solution](Challenge13/src/main.cpp)
