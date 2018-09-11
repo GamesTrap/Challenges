@@ -94,7 +94,7 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- If the number is even, divide by 2
 		- If not, multiply it by 3 and add 1
 	- 2.
-		- If the resulting number is greater than 1, apply step 1 again
+		- If the resulting number is greater than 1, apply step a again
 		- If not, the process is finished
 	- Output every result from the algorithm
 	- Output every new biggest number and add a pause
@@ -103,4 +103,16 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 
 - Challenge 11
 	- Write a program that prints the contents of a file in hexadecimal form
+	- First output 16 letters then the 16 associated hex codes per line
 	- [Solution](Challenge11/src/main.cpp)
+
+- Challenge 12
+	- Write a program that outputs statistics for a text file
+	- Example:
+		- Number of characters = 16437
+		- Number of words = 2526
+		- Number of lines = 220
+	- A word is defined as an uninterrupted sequence of character
+	- Umlauts do not count as characters because they are not part of ASCII
+	- The number of characters should not contain the end-of-line identifier
+	- [Solution](Challenge12/src/main.cpp)
