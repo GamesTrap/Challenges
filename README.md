@@ -160,5 +160,13 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Write a program that requires a string
 	- Create a function called reverseString(String)
 		- Reverse the order of the characters in the string
-	- Output the result
+	- Output result
 	- [Solution](Challenge16/src/main.cpp)
+
+- Challenge 17
+	- Write a program that requires a string
+	- Create a function called isAlphanumerical(String)
+		- Return true if string only contains letters and digits
+		- Else return false
+	- Output result
+	- [Solution](Challenge17/src/main.cpp)
