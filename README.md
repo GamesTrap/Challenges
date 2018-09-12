@@ -154,3 +154,11 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Create a function called power(x, y)
 	- Calculate the power with the function
 	- Output the result
+	- [Solution](Challenge15/src/main.cpp)
+
+- Challenge 16
+	- Write a program that requires a string
+	- Create a function called reverseString(String)
+		- Reverse the order of the characters in the string
+	- Output the result
+	- [Solution](Challenge16/src/main.cpp)
