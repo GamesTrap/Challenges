@@ -147,3 +147,10 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Convert the user input to seconds
 	- Output total seconds
 	- [Solution](Challenge14/src/main.cpp)
+
+- Challenge 15
+	- Write a program that requires 1 double and 1 int
+	- Ask for a double number and int exponent
+	- Create a function called power(x, y)
+	- Calculate the power with the function
+	- Output the result

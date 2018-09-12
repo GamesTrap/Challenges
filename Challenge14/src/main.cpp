@@ -1,13 +1,13 @@
 #include <iostream>
 
-int convertToSeconds(const int hours, const int minutes, const int seconds)
+unsigned int convertToSeconds(const unsigned int hours, const unsigned int minutes, const unsigned int seconds)
 {
 	return (hours * (60 * 60)) + (minutes * 60) + (seconds);
 }
 
 int main()
 {
-	int hours, minutes, seconds;
+	unsigned int hours, minutes, seconds;
 
 	std::cout << "Only integers" << '\n';
 	std::cout << "Please enter hours: ";
