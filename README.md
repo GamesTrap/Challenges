@@ -122,13 +122,13 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Write a program that can read any number of entries from a file like below
 		- Example.txt
 	  	```
-	  	Bob Ross
-	  	123456
-	  	Kappa Pride
-	  	746453
-	  	Kappa Claus
-	  	6329430
-	  	#
+		Bob Ross
+		123456
+		Kappa Pride
+		746453
+		Kappa Claus
+		6329430
+		#
 	  	```
 	  	- Use a struct named Student.
 	  	- It should contain the name and the associated student number as a string
@@ -139,3 +139,11 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	 	- Output name(or "not found")
 	 	- Do step 2 again until the user enters 'x' or 'X'
 	- [Solution](Challenge13/src/main.cpp)
+
+- Challenge 14
+	- Write a program that requires 3 integers
+	- Ask for hours, minutes and seconds
+	- Create a function called ConvertToSeconds(int hours, int minutes, int seconds)
+	- Convert the user input to seconds
+	- Output total seconds
+	- [Solution](Challenge14/src/main.cpp)
