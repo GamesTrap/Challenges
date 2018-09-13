@@ -175,3 +175,18 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Write a template function getType(T)
 	- Use template specialisation to return the type of the parameter T as string
 	- [Solution](Challenge18/src/)
+
+- Challenge 19
+	- Create a class called Person
+		- Attribute: Name, Age, Sex
+		- Methods: getName(), getAge(), getSex(), setName(), setAge(), setSex()
+	- Create enum class Sex
+		- Male, Female
+	- Create instance of Person with name = Kappa Pride, age = 1337, sex = male
+	- Output name and age of person
+	- Output name and sex of person
+	- Add 1 year to current age
+	- Output name and new age of person
+	- Change lastname to Claus
+	- Output new name
+	- [Solution](Challenge19/src/)
