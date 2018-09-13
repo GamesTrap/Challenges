@@ -170,3 +170,8 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Else return false
 	- Output result
 	- [Solution](Challenge17/src/main.cpp)
+
+- Challenge 18
+	- Write a template function getType(T)
+	- Use template specialisation to return the type of the parameter T as string
+	- [Solution](Challenge18/src/)
