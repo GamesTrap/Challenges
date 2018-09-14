@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include <cassert>
+#include <cstring>
 
 void strCopy(char* target, const char* source)
 {

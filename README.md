@@ -228,3 +228,8 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Overwrite the previous content of target
 	- It is required that target is big enough to copy source into target
 	- [Solution](Challenge21/src)
+
+- Challenge 22
+	- Write a function char* strDuplicate(const char* s)
+	- Create a duplicate of s with new
+	- Return a pointer to the beginning of the duplicate
