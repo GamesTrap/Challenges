@@ -227,22 +227,29 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Copy the content of the string source into the string target
 	- Overwrite the previous content of target
 	- It is required that target is big enough to copy source into target
-	- [Solution](Challenge21/src)
+	- [Solution](Challenge21/src/main.cpp)
 
 - Challenge 22
 	- Write a function char* strDuplicate(const char* s)
 	- Create a duplicate of s with new
 	- Return a pointer to the beginning of the duplicate
-	- [Solution](Challenge22/src)
+	- [Solution](Challenge22/src/main.cpp)
 
 - Challenge 23
 	- Write a program that sorts the array below in Alphabetical order
 	- Given is: const char *sField[]={"one","two","three","four","five","six","seven","eight",nine","ten"};
-	- [Solution](Challenge23/src)
+	- [Solution](Challenge23/src/main.cpp)
 
 - Challenge 24
 	- Write a function void removeSpaces(char* s)
 		- Remove all spaces from s
 	- Example: "a bb   ccc" = "abbccc"
 	- Use pointers
-	- [Solution](Challenge24/src)
+	- [Solution](Challenge24/src/main.cpp)
+
+- Challenge 25
+	- Write a program that outputs file names defined from command line
+	- Example: Challenge25 file1.cpp XXX file2.cpp
+		- Output file1.cpp and file2.cpp in console
+		- If file XXX is not found output error message: "File XXX not found!"
+	- [Solution](Challenge25/src/main.cpp)
