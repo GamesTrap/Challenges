@@ -233,3 +233,9 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Write a function char* strDuplicate(const char* s)
 	- Create a duplicate of s with new
 	- Return a pointer to the beginning of the duplicate
+	- [Solution](Challenge22/src)
+
+- Challenge 23
+	- Write a program that sorts the array below in Alphabetical order
+	- Given is: const char *sField[]={"one","two","three","four","five","six","seven","eight",nine","ten"};
+	- [Solution](Challenge23/src)
