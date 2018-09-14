@@ -239,3 +239,10 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Write a program that sorts the array below in Alphabetical order
 	- Given is: const char *sField[]={"one","two","three","four","five","six","seven","eight",nine","ten"};
 	- [Solution](Challenge23/src)
+
+- Challenge 24
+	- Write a function void removeSpaces(char* s)
+		- Remove all spaces from s
+	- Example: "a bb   ccc" = "abbccc"
+	- Use pointers
+	- [Solution](Challenge24/src)
