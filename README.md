@@ -218,7 +218,13 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		amount.add(i * i);
 
 	std::cout << "Amount: " << amount.size() << " Minimum: " << amount.getMin() << '\n';
-
 	std::cout << "amount.isMember(1337) " << amount.isMember(1337) << '\n';
 	```
 	- [Solution](Challenge20/src)
+
+- Challenge 21
+	- Write a function void strcopy(char* target, const char* source)
+	- Copy the content of the string source into the string target
+	- Overwrite the previous content of target
+	- It is required that target is big enough to copy source into target
+	- [Solution](Challenge21/src)
