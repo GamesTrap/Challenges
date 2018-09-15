@@ -270,4 +270,50 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	std::cout << f.toString(789,906625) << '\n'; //= SSSSS789,907 | S = empty space
 	std::cout << f.toString(-123456789.906625) << '\n'; //= -123456789,907
 	```
-	- [Solution](Challenge27/src/main.cpp)
+	- [Solution](Challenge27/src)
+
+- Challenge 28
+	- Simulate a party
+		- Example
+		```
+        int main()
+        {
+            Member otto("Otto");
+          	Member andrea("Andrea");
+          	Member jens("Jens");
+          	Member silvana("Silvana");
+          	Member miriam("Miriam");
+          	Member paul("Paul");
+          	//Vector with memory addresses
+          	std::vector<Member*> all {&otoo, &andrea, &jens, &silvana, &miriam, &paul};
+          	andrea.getsToKnow(jens);
+          	silvana.getsToKnow(otto);
+          	paul.getsToKnow(otto);
+          	paul.getsToKnow(silvana);
+          	miriam.getsToKnow(andrea);
+          	jens.getsToKnow(miriam);
+          	jens.getsToKnow(silvana);
+          	if(jens.knows(andrea))
+          	    std::cout << "Jens knows Andrea" << '\n';
+          	//Output of all members indicating who knows whom:
+          	for(auto memberPtr : all)
+          	{
+          	    std::cout << memberPtr->giveName() << " knows: ";
+          	    memberPtr->printKnown();
+            }
+        }
+		```
+	- Create class Member
+		- getsToKnow(Member&) //To get to know each other
+		- knows(Member&)
+		- giveName()
+		- void printKnown()
+		- std::vector<std::string> known
+		- "alex.getsToKnow(alex);" should be ignored
+	- Vector<Member*>
+		- Use it to output names and known
+		- Point to the original object with pointers
+	- Hint:
+		- Comparison of the addresses of two objects shows whether they are identical
+		- Copies can be the same, but they are different objects
+	- [Solution](Challenge28/src)
