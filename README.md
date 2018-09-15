@@ -317,3 +317,8 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Comparison of the addresses of two objects shows whether they are identical
 		- Copies can be the same, but they are different objects
 	- [Solution](Challenge28/src)
+
+- Challenge 29
+	- Write a stack template called MyStack
+		- Use a std::vector object as container for data
+	- [Solution](Challenge29/src)
