@@ -253,3 +253,21 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 		- Output file1.cpp and file2.cpp in console
 		- If file XXX is not found output error message: "File XXX not found!"
 	- [Solution](Challenge25/src/main.cpp)
+
+- Challenge 26
+	- Write a program tat prints all names from a file
+		- It starts with a letter, then follow any number of letters and numbers
+		- Underscore also counts as a letter
+	- [Solution](Challenge26/src/main.cpp)
+
+- Challenge 27
+	- Write a class Format
+		- Formatting numbers
+		- Automatically extend width to avoid information loss
+	- Example usage:
+	```
+	Format f(12, 3); //Output 12 characters wide, 3 decimal places
+	std::cout << f.toString(789,906625) << '\n'; //= SSSSS789,907 | S = empty space
+	std::cout << f.toString(-123456789.906625) << '\n'; //= -123456789,907
+	```
+	- [Solution](Challenge27/src/main.cpp)
