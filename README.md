@@ -322,3 +322,47 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Write a stack template called MyStack
 		- Use a std::vector object as container for data
 	- [Solution](Challenge29/src)
+
+- Challenge 30
+	- Write a class called Person
+		- Abstract
+		- std::string Firstname
+		- std::string Lastname
+		- getLastname()
+		- getFirstname()
+		- toString() //Return Firstname + Lastname
+	- class Student
+		- Inherit Person
+		- std::string StudentNumber
+		- toString() //Return Firstname + Lastname + StudentNumber
+		- getStudentNumber()
+		- setStudentNumber()
+	- class Professor
+		- Inherit Person
+		- std::string SubjectArea
+		- toString() //Return Firstname + Lastname + SubjectArea
+		- getSubjectArea()
+		- setSubjectArea()
+	- Example usage:
+	```
+	std::vector<Person*> people;
+	people.push_back(new Student("Pride", "Kappa", "635374"));
+	people.push_back(new Professor("Respect", "Dr. Dis", "Killing"));
+	people.push_back(new Student("Ross", "Bob", "123429"));
+
+	for(auto personPtr : people)
+		std::cout << personPtr->getFirstname() << '\n';
+
+	for(auto personPtr : peolple)
+		std::cout << perosnPtr->toString() << '\n';
+	```
+	- Example output:
+	```
+	Kappa Pride
+	Dr. Dis
+	Bob
+	Student Kappa Pride, Stud.No.: 635374
+	Prof. Dr. Dis Respect, Subject area: Killing
+	Student Bob Ross, Stud.No.: 123429
+	```
+	- [Solution](Challenge30/src)
