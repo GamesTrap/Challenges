@@ -378,3 +378,22 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Example output: ```Is your number ...? (Y)es, it's (h)igher, it's (l)ower```
 	- Extra challenge: Make the starting value random.
 	- [Solution](Challenge32/src)
+
+- Challenge 33
+	- Create a programm that calculates F = M * A
+	- Example output:
+	```
+	What is the acceleration? ...
+	What is the mass? ...
+
+	The Force is ...
+	```
+	- Example output(Extra Challenge): 
+	```
+	What would you like to calculate?
+	Type F for force, M for mass, or A for acceleration:
+	...
+	The force/mass/acceleration is ...
+	```
+	- Extra challenge: Also add functionality to calculate mass or acceleration
+	- [Solution](Challenge33/src)
