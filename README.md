@@ -372,3 +372,9 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	- Output the information back in format: ```Your name is ..., you are ... years old and your username is ...```
 	- Extra challenge: Save the information in a file for later access.
 	- [Solution](Challenge31/src)
+
+- Challenge 32
+	- Create a program that will guess numbers between 1-100 and respond appropriately based on whether the user says that the number is too high or too low.
+	- Example output: ```Is your number ...? (Y)es, it's (h)igher, it's (l)ower```
+	- Extra challenge: Make the starting value random.
+	- [Solution](Challenge32/src)
