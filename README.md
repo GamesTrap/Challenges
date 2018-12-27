@@ -366,3 +366,9 @@ Status: [![Build Status](https://travis-ci.com/GamesTrap/Challenges.svg?branch=m
 	Student Bob Ross, Stud.No.: 123429
 	```
 	- [Solution](Challenge30/src)
+
+- Challenge 31
+	- Create a program that asks for the users name, age and nickname
+	- Output the information back in format: ```Your name is ..., you are ... years old and your username is ...```
+	- Extra challenge: Save the information in a file for later access.
+	- [Solution](Challenge31/src)
