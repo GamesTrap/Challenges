@@ -4,6 +4,9 @@
 
 bool CheckName(std::string& name)
 {
+	if (name.empty())
+		return false;
+
 	for(auto& c : name)
 		if (!isalpha(c) && c != ' ')
 			return false;
@@ -29,6 +32,9 @@ std::string GetName()
 
 bool CheckAge(std::string& temp)
 {
+	if (temp.empty())
+		return false;
+
 	for(auto& c : temp)
 		if (!isdigit(c))
 			return false;
@@ -58,6 +64,12 @@ std::string GetNickName()
 
 	std::cout << "Please enter your nickname: ";
 	std::getline(std::cin, temp);
+
+	while(temp.empty())
+	{
+		std::cout << "Your nickname is invalid! Please try again: ";
+		std::getline(std::cin, temp);
+	}
 
 	return temp;
 }

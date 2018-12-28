@@ -3,6 +3,9 @@
 
 bool CheckStringForDoubleConvert(std::string& str)
 {
+	if (str.empty())
+		return false;
+
 	for (auto& c : str)
 	{
 		if (!(c == '.' || c == ',' || isdigit(c)))
@@ -20,31 +23,30 @@ double ConvertToDouble(std::string& str)
 		std::getline(std::cin, str);
 	}
 
-	std::cout << str << " passed double check!" << '\n';
-
 	return std::stod(str);
 }
 
 int main()
 {
 	double f, m, a;
-	char c;
 	std::string temp;
 
 	std::cout << "What would you like to calculate?" << '\n';
 	std::cout << "Type F for force, M for mass, or A for acceleration: ";
-	std::cin >> c;
 
 	while(true)
-	{		
+	{	
+		//Get Input
+		std::getline(std::cin, temp); 
+
 		//Calculate force
-		if (c == 'f' || c == 'F')
+		if (temp == "f" || temp == "F")
 		{
-			std::cout << "What is the acceleration?" << '\n';
+			std::cout << "What is the acceleration? ";
 			std::getline(std::cin, temp);
 			a = ConvertToDouble(temp);
 
-			std::cout << "What is the mass?" << '\n';
+			std::cout << "What is the mass? ";
 			std::getline(std::cin, temp);
 			m = ConvertToDouble(temp);
 
@@ -54,13 +56,13 @@ int main()
 		}
 
 		//Calculate mass
-		if (c == 'm' || c == 'M')
+		if (temp == "m" || temp == "M")
 		{
-			std::cout << "What is the acceleration?" << '\n';
+			std::cout << "What is the acceleration? ";
 			std::getline(std::cin, temp);
 			a = ConvertToDouble(temp);
 
-			std::cout << "What is the force?" << '\n';
+			std::cout << "What is the force? ";
 			std::getline(std::cin, temp);
 			f = ConvertToDouble(temp);
 
@@ -70,13 +72,13 @@ int main()
 		}
 
 		//Calculate acceleration
-		if (c == 'a' || c == 'A')
+		if (temp == "a" || temp == "A")
 		{
-			std::cout << "What is the force?" << '\n';
+			std::cout << "What is the force? ";
 			std::getline(std::cin, temp);
 			f = ConvertToDouble(temp);
 
-			std::cout << "What is the mass?" << '\n';
+			std::cout << "What is the mass? ";
 			std::getline(std::cin, temp);
 			m = ConvertToDouble(temp);
 
@@ -87,8 +89,6 @@ int main()
 
 		//Wrong Input
 		std::cout << "Wrong Input! Try again: ";
-		std::cin >> c;
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	}	
 
 	std::cout << "Press Enter to continue . . . ";
